@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31179D2A26F8A3CB00D4CF59 /* Regex for Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31179D2926F8A3CB00D4CF59 /* Regex for Validation.swift */; };
+		3118D10626FEFD8B00BC532F /* ContactSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3118D10526FEFD8B00BC532F /* ContactSelectionViewController.swift */; };
+		31699E182701CA36000AE2E2 /* MessageAndCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31699E172701CA34000AE2E2 /* MessageAndCallViewController.swift */; };
+		31BCCC2B26FC76B900A414B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BCCC2A26FC76B900A414B5 /* LoginViewController.swift */; };
+		31BCCC3026FC76DA00A414B5 /* FormUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BCCC2F26FC76DA00A414B5 /* FormUI.swift */; };
+		31BCCC3726FCB42000A414B5 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BCCC3626FCB42000A414B5 /* DashBoardViewController.swift */; };
+		31C48EB826F47DC2009A4318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C48EB726F47DC2009A4318 /* AppDelegate.swift */; };
+		31C48EBC26F47DC2009A4318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C48EBB26F47DC2009A4318 /* ViewController.swift */; };
+		31C48EBF26F47DC2009A4318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C48EBD26F47DC2009A4318 /* Main.storyboard */; };
+		31C48EC226F47DC2009A4318 /* Women_Security_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31C48EC026F47DC2009A4318 /* Women_Security_App.xcdatamodeld */; };
+		31C48EC426F47DC9009A4318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C48EC326F47DC9009A4318 /* Assets.xcassets */; };
+		31C48EC726F47DC9009A4318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C48EC526F47DC9009A4318 /* LaunchScreen.storyboard */; };
+		31C48ED226F47DCA009A4318 /* Women_Security_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C48ED126F47DCA009A4318 /* Women_Security_AppTests.swift */; };
+		31C48EDD26F47DCA009A4318 /* Women_Security_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C48EDC26F47DCA009A4318 /* Women_Security_AppUITests.swift */; };
+		31C48F4926F4D115009A4318 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31C48F0726F4D042009A4318 /* Info.plist */; };
+		31C48F4D26F4D116009A4318 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31C48F0726F4D042009A4318 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31C48ECE26F47DCA009A4318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31C48EAC26F47DC1009A4318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C48EB326F47DC1009A4318;
+			remoteInfo = Women_Security_App;
+		};
+		31C48ED926F47DCA009A4318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31C48EAC26F47DC1009A4318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C48EB326F47DC1009A4318;
+			remoteInfo = Women_Security_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31179D2926F8A3CB00D4CF59 /* Regex for Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Regex for Validation.swift"; sourceTree = "<group>"; };
+		3118D10526FEFD8B00BC532F /* ContactSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSelectionViewController.swift; sourceTree = "<group>"; };
+		31699E172701CA34000AE2E2 /* MessageAndCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAndCallViewController.swift; sourceTree = "<group>"; };
+		31BCCC2A26FC76B900A414B5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		31BCCC2F26FC76DA00A414B5 /* FormUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormUI.swift; sourceTree = "<group>"; };
+		31BCCC3626FCB42000A414B5 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		31C48EB426F47DC1009A4318 /* Women_Security_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Women_Security_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C48EB726F47DC2009A4318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31C48EBB26F47DC2009A4318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31C48EBE26F47DC2009A4318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31C48EC126F47DC2009A4318 /* Women_Security_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Women_Security_App.xcdatamodel; sourceTree = "<group>"; };
+		31C48EC326F47DC9009A4318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31C48EC626F47DC9009A4318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31C48ECD26F47DCA009A4318 /* Women_Security_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Women_Security_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C48ED126F47DCA009A4318 /* Women_Security_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Women_Security_AppTests.swift; sourceTree = "<group>"; };
+		31C48ED326F47DCA009A4318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C48ED826F47DCA009A4318 /* Women_Security_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Women_Security_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C48EDC26F47DCA009A4318 /* Women_Security_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Women_Security_AppUITests.swift; sourceTree = "<group>"; };
+		31C48EDE26F47DCA009A4318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C48F0726F4D042009A4318 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31C48EB126F47DC1009A4318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C48ECA26F47DCA009A4318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C48ED526F47DCA009A4318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31179D2826F8A39600D4CF59 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				31179D2926F8A3CB00D4CF59 /* Regex for Validation.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		31BCCC3526FCB3A700A414B5 /* Dashoard */ = {
+			isa = PBXGroup;
+			children = (
+				31BCCC3626FCB42000A414B5 /* DashBoardViewController.swift */,
+				3118D10526FEFD8B00BC532F /* ContactSelectionViewController.swift */,
+				31699E172701CA34000AE2E2 /* MessageAndCallViewController.swift */,
+			);
+			path = Dashoard;
+			sourceTree = "<group>";
+		};
+		31C48EAB26F47DC1009A4318 = {
+			isa = PBXGroup;
+			children = (
+				31C48EB626F47DC2009A4318 /* Women_Security_App */,
+				31C48ED026F47DCA009A4318 /* Women_Security_AppTests */,
+				31C48EDB26F47DCA009A4318 /* Women_Security_AppUITests */,
+				31C48EB526F47DC1009A4318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31C48EB526F47DC1009A4318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31C48EB426F47DC1009A4318 /* Women_Security_App.app */,
+				31C48ECD26F47DCA009A4318 /* Women_Security_AppTests.xctest */,
+				31C48ED826F47DCA009A4318 /* Women_Security_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31C48EB626F47DC2009A4318 /* Women_Security_App */ = {
+			isa = PBXGroup;
+			children = (
+				31BCCC3526FCB3A700A414B5 /* Dashoard */,
+				31179D2826F8A39600D4CF59 /* Helper */,
+				31C48F0726F4D042009A4318 /* Info.plist */,
+				31C48EED26F47E6B009A4318 /* Registration */,
+				31C48EF326F47FDE009A4318 /* StoryBoards */,
+				31C48EF226F47F8C009A4318 /* Network */,
+				31C48EF126F47F7D009A4318 /* Models */,
+				31C48EF026F47F4C009A4318 /* Resource */,
+				31C48EEE26F47E9F009A4318 /* Supporting Files */,
+				31C48EEF26F47F39009A4318 /* StartUp */,
+				31C48EC026F47DC2009A4318 /* Women_Security_App.xcdatamodeld */,
+			);
+			path = Women_Security_App;
+			sourceTree = "<group>";
+		};
+		31C48ED026F47DCA009A4318 /* Women_Security_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				31C48ED126F47DCA009A4318 /* Women_Security_AppTests.swift */,
+				31C48ED326F47DCA009A4318 /* Info.plist */,
+			);
+			path = Women_Security_AppTests;
+			sourceTree = "<group>";
+		};
+		31C48EDB26F47DCA009A4318 /* Women_Security_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31C48EDC26F47DCA009A4318 /* Women_Security_AppUITests.swift */,
+				31C48EDE26F47DCA009A4318 /* Info.plist */,
+			);
+			path = Women_Security_AppUITests;
+			sourceTree = "<group>";
+		};
+		31C48EED26F47E6B009A4318 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				31C48EBB26F47DC2009A4318 /* ViewController.swift */,
+				31C48EBD26F47DC2009A4318 /* Main.storyboard */,
+				31BCCC2A26FC76B900A414B5 /* LoginViewController.swift */,
+				31BCCC2F26FC76DA00A414B5 /* FormUI.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		31C48EEE26F47E9F009A4318 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31C48EC526F47DC9009A4318 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31C48EEF26F47F39009A4318 /* StartUp */ = {
+			isa = PBXGroup;
+			children = (
+				31C48EB726F47DC2009A4318 /* AppDelegate.swift */,
+			);
+			path = StartUp;
+			sourceTree = "<group>";
+		};
+		31C48EF026F47F4C009A4318 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				31C48EC326F47DC9009A4318 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		31C48EF126F47F7D009A4318 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31C48EF226F47F8C009A4318 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		31C48EF326F47FDE009A4318 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31C48EB326F47DC1009A4318 /* Women_Security_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C48EE126F47DCA009A4318 /* Build configuration list for PBXNativeTarget "Women_Security_App" */;
+			buildPhases = (
+				31C48EB026F47DC1009A4318 /* Sources */,
+				31C48EB126F47DC1009A4318 /* Frameworks */,
+				31C48EB226F47DC1009A4318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Women_Security_App;
+			productName = Women_Security_App;
+			productReference = 31C48EB426F47DC1009A4318 /* Women_Security_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31C48ECC26F47DCA009A4318 /* Women_Security_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C48EE426F47DCA009A4318 /* Build configuration list for PBXNativeTarget "Women_Security_AppTests" */;
+			buildPhases = (
+				31C48EC926F47DCA009A4318 /* Sources */,
+				31C48ECA26F47DCA009A4318 /* Frameworks */,
+				31C48ECB26F47DCA009A4318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C48ECF26F47DCA009A4318 /* PBXTargetDependency */,
+			);
+			name = Women_Security_AppTests;
+			productName = Women_Security_AppTests;
+			productReference = 31C48ECD26F47DCA009A4318 /* Women_Security_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31C48ED726F47DCA009A4318 /* Women_Security_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C48EE726F47DCA009A4318 /* Build configuration list for PBXNativeTarget "Women_Security_AppUITests" */;
+			buildPhases = (
+				31C48ED426F47DCA009A4318 /* Sources */,
+				31C48ED526F47DCA009A4318 /* Frameworks */,
+				31C48ED626F47DCA009A4318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C48EDA26F47DCA009A4318 /* PBXTargetDependency */,
+			);
+			name = Women_Security_AppUITests;
+			productName = Women_Security_AppUITests;
+			productReference = 31C48ED826F47DCA009A4318 /* Women_Security_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31C48EAC26F47DC1009A4318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					31C48EB326F47DC1009A4318 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					31C48ECC26F47DCA009A4318 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 31C48EB326F47DC1009A4318;
+					};
+					31C48ED726F47DCA009A4318 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 31C48EB326F47DC1009A4318;
+					};
+				};
+			};
+			buildConfigurationList = 31C48EAF26F47DC1009A4318 /* Build configuration list for PBXProject "Women_Security_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31C48EAB26F47DC1009A4318;
+			productRefGroup = 31C48EB526F47DC1009A4318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31C48EB326F47DC1009A4318 /* Women_Security_App */,
+				31C48ECC26F47DCA009A4318 /* Women_Security_AppTests */,
+				31C48ED726F47DCA009A4318 /* Women_Security_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31C48EB226F47DC1009A4318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C48EC726F47DC9009A4318 /* LaunchScreen.storyboard in Resources */,
+				31C48EC426F47DC9009A4318 /* Assets.xcassets in Resources */,
+				31C48EBF26F47DC2009A4318 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C48ECB26F47DCA009A4318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C48F4926F4D115009A4318 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C48ED626F47DCA009A4318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C48F4D26F4D116009A4318 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C48EB026F47DC1009A4318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3118D10626FEFD8B00BC532F /* ContactSelectionViewController.swift in Sources */,
+				31C48EC226F47DC2009A4318 /* Women_Security_App.xcdatamodeld in Sources */,
+				31C48EBC26F47DC2009A4318 /* ViewController.swift in Sources */,
+				31179D2A26F8A3CB00D4CF59 /* Regex for Validation.swift in Sources */,
+				31BCCC3726FCB42000A414B5 /* DashBoardViewController.swift in Sources */,
+				31BCCC2B26FC76B900A414B5 /* LoginViewController.swift in Sources */,
+				31C48EB826F47DC2009A4318 /* AppDelegate.swift in Sources */,
+				31BCCC3026FC76DA00A414B5 /* FormUI.swift in Sources */,
+				31699E182701CA36000AE2E2 /* MessageAndCallViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C48EC926F47DCA009A4318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C48ED226F47DCA009A4318 /* Women_Security_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C48ED426F47DCA009A4318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C48EDD26F47DCA009A4318 /* Women_Security_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31C48ECF26F47DCA009A4318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31C48EB326F47DC1009A4318 /* Women_Security_App */;
+			targetProxy = 31C48ECE26F47DCA009A4318 /* PBXContainerItemProxy */;
+		};
+		31C48EDA26F47DCA009A4318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31C48EB326F47DC1009A4318 /* Women_Security_App */;
+			targetProxy = 31C48ED926F47DCA009A4318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31C48EBD26F47DC2009A4318 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C48EBE26F47DC2009A4318 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31C48EC526F47DC9009A4318 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C48EC626F47DC9009A4318 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31C48EDF26F47DCA009A4318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31C48EE026F47DCA009A4318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31C48EE226F47DCA009A4318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Women_Security_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akanksha.Women-Security-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31C48EE326F47DCA009A4318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Women_Security_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akanksha.Women-Security-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31C48EE526F47DCA009A4318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Women_Security_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akanksha.Women-Security-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Women_Security_App.app/Women_Security_App";
+			};
+			name = Debug;
+		};
+		31C48EE626F47DCA009A4318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Women_Security_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akanksha.Women-Security-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Women_Security_App.app/Women_Security_App";
+			};
+			name = Release;
+		};
+		31C48EE826F47DCA009A4318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Women_Security_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akanksha.Women-Security-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Women_Security_App;
+			};
+			name = Debug;
+		};
+		31C48EE926F47DCA009A4318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Women_Security_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akanksha.Women-Security-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Women_Security_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C48EAF26F47DC1009A4318 /* Build configuration list for PBXProject "Women_Security_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C48EDF26F47DCA009A4318 /* Debug */,
+				31C48EE026F47DCA009A4318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C48EE126F47DCA009A4318 /* Build configuration list for PBXNativeTarget "Women_Security_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C48EE226F47DCA009A4318 /* Debug */,
+				31C48EE326F47DCA009A4318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C48EE426F47DCA009A4318 /* Build configuration list for PBXNativeTarget "Women_Security_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C48EE526F47DCA009A4318 /* Debug */,
+				31C48EE626F47DCA009A4318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C48EE726F47DCA009A4318 /* Build configuration list for PBXNativeTarget "Women_Security_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C48EE826F47DCA009A4318 /* Debug */,
+				31C48EE926F47DCA009A4318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31C48EC026F47DC2009A4318 /* Women_Security_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31C48EC126F47DC2009A4318 /* Women_Security_App.xcdatamodel */,
+			);
+			currentVersion = 31C48EC126F47DC2009A4318 /* Women_Security_App.xcdatamodel */;
+			path = Women_Security_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31C48EAC26F47DC1009A4318 /* Project object */;
+}
